@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.android\build-cache\c0363f59db1d3183b16398a6e553544bc5d6c53d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4373c433748652e9e7c20770f73ac14d852505dd">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c81fb180f288bcac207e321d317cd7bfedac610c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.android\build-cache\2f565b91a751a0bb2b519f5c8dee8d5b671e70bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9b3e203eac3707863ea1ec73c5a558d0bccb7e05">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b584064d0273938d7b8e2e31c7a46fc78d78ae17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="965fae95efe4f79024ec1ed9f2b90e715e74e3a8">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a4c36f4c7aaf09e21068b6f3bf45305e17d3b611\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_decf98c82bba457139e35ec0bc2f36ae30458cb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.android\build-cache\334ec1a5a9b106b5373bccf7c1cb54f78c5e9af1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2640be449e78c2947f08c4f8fdc596faf6b450da">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c8f56d7275849b4c247cec09a4a5028a0a53776\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.android\build-cache\32f744cc51b272f4bd7a770957a36f0bc6b5c4d2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15fd2daf99f7278d4abea74082e27cb7aed7ea2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.twitter\twitter-text\1.14.3\71218d7dd9435e8b43e5ccf117bec37cb78fa2eb\twitter-text-1.14.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="71218d7dd9435e8b43e5ccf117bec37cb78fa2eb">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter-text-1.14.3_e820126ee457bb53bf0d5259e0691770170ba5f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c398ae5422b10cb3f6fc50be150530d363b9b372\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_8c20d582abdb360e4bc770761af335e599f0f5b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.android\build-cache\ce1a30720d519cb3c3c150b4392e7a92e104cb22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="684b132d394d746b6a5eeddb384aadd775ea5bdc">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e588e89f406bab8243c744de1a1c3b4c811ced45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_1794eb8e7d762f6e60ba3d1080f0569e6fe23866\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_2386a9bc63679cb2c202207c7e180ac79d441b61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_9031ecfb09d2c04471fa26acdf162eb209bd8981\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\RaviSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_0a486b0bf522839c2d28f127674cdee2c9527f85\classes.dex" />
+    </item>
+
+</items>

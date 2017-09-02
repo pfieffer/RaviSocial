@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements ViewPagerEx.OnPag
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new TwitterFragment(), "TWITTER");
+        adapter.addFragment(new FacebookFragment(), "FACEBOOK");
         viewPager.setAdapter(adapter);
     }
 
