@@ -1,3 +1,11 @@
+//Load API Key information in from property file
+Properties props = new Properties()
+try {
+    props.load(file('twitter.properties').newDataInputStream())
+} catch (Exception ex) {
+    throw new GradleException("Missing twitter.properties, check the twitter.properties.sample file.");
+}
+
 apply plugin: 'com.android.application'
 
 android {
@@ -12,7 +20,17 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            resValue "string", "com.twitter.sdk.android.CONSUMER_KEY", "\"${props.getProperty("twitterConsumerKey")}\""
+            resValue "string", "com.twitter.sdk.android.CONSUMER_SECRET", "\"${props.getProperty("twitterConsumerSecret")}\""
+            resValue "bool", "com.twitter.sdk.android.TRACE_ENABLED", "true"
+            resValue "bool", "com.twitter.sdk.android.COLLECT_IDENTIFIERS_ENABLED", "true"
+        }
         release {
+            resValue "string", "com.twitter.sdk.android.CONSUMER_KEY", "\"${props.getProperty("twitterConsumerKey")}\""
+            resValue "string", "com.twitter.sdk.android.CONSUMER_SECRET", "\"${props.getProperty("twitterConsumerSecret")}\""
+            resValue "bool", "com.twitter.sdk.android.TRACE_ENABLED", "false"
+            resValue "bool", "com.twitter.sdk.android.COLLECT_IDENTIFIERS_ENABLED", "true"
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -24,7 +42,14 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    compile 'com.android.support:support-v4:25.3.1'
     testCompile 'junit:junit:4.12'
+    compile('com.twitter.sdk.android:twitter:3.0.0@aar') {
+        transitive = true
+    }
 }
